@@ -12,6 +12,14 @@ app.get('/about', function(req, res) {
     res.sendFile('./views/about.html', {root: __dirname});
 });
 
+app.get('/about-us', function(req, res) {
+    res.sendFile('./views/about.html', {root: __dirname});
+});
+
+app.use(function(req, res) {
+    res.status(404).sendFile('./views/404.html', {root: __dirname});
+});
+
 app.listen(port, function() {
     console.log(`Server is listening on ${port}`);
 });
