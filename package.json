@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/ogagaoghene/node-projects/issues"
   },
-  "homepage": "https://github.com/ogagaoghene/node-projects#readme"
+  "homepage": "https://github.com/ogagaoghene/node-projects#readme",
+  "devDependencies": {
+    "express": "^4.18.2"
+  },
+  "dependencies": {
+    "nodemon": "^2.0.7"
+  }
 }
